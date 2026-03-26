@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Seating Allotment</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-image:url(img.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+h1{
+    color:#5a56c7;
+    letter-spacing:3px;
+    font-size:40px;
+    margin-top:40px;
+}
+table{
+    width:70%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0px 10px 25px rgba(0,0,0,0.25);
+    margin-top:20px;
+}
+th{
+    background:linear-gradient(90deg,#5f6edb,#6f82ff);
+    color:white;
+    font-size:18px;
+    padding:15px;
+}
+td{
+    padding:14px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+    font-size:18px;
+    color:#0a1a6a;
+}
+tr:nth-child(even){
+    background:#f8f9ff;
+}
+tr{
+    transition:0.3s;
+}
+
+tr:hover{
+    background:#e9edff;
+    transform:scale(1.01);
+}
+td a{
+    text-decoration:none;
+    color:white;
+    background:linear-gradient(45deg,#3a7bd5,#00d2ff);
+    padding:8px 18px;
+    border-radius:8px;
+    font-size:15px;
+    display:inline-block;
+    transition:all 0.3s ease;
+}
+td a:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+table{
+    animation:fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>SEATING ALLOTMENT</h1>
+
+<table>
+
+<tr>
+<th>S.NO</th>
+<th>FLOOR</th>
+<th>ROOM NUMBER</th>
+<th>ALLOCATED ROOMS</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>1'st floor</td>
+<td>202</td>
+<td><a href="seminarhall.html">click here to know the exam seating</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>1'st floor</td>
+<td>209</td>
+<td><a href="drawinghall(1).html">click here to know the exam seating</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>1'st floor</td>
+<td>269</td>
+<td><a href="drawinghall(2).html">click here to know the exam seating</a></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>1'st floor</td>
+<td>230</td>
+<td><a href="girlscommonroom.html">click here to know the exam seating</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2'nd floor</td>
+<td>204</td>
+<td><a href="sf-15.html">click here to know the exam seating</a></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>2'nd floor</td>
+<td>115</td>
+<td><a href="sf-17.html">click here to know the exam seating</a></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>3'rd floor</td>
+<td>113</td>
+<td><a href="seminarhall3.html">click here to know the exam seating</a></td>
+</tr>
+
+</table>
+
+</body>
+</html>

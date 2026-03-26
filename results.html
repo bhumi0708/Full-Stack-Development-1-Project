@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Results</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:linear-gradient(135deg,#d9afd9,#97d9e1);
+}
+
+/* Container */
+.container{
+    width:70%;
+    margin:80px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h1{
+    text-align:center;
+    color:#334;
+    margin-bottom:25px;
+    letter-spacing:2px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+/* Header */
+th{
+    background:linear-gradient(90deg,#2c5364,#203a43,#0f2027);
+    color:white;
+    padding:14px;
+    font-size:17px;
+}
+
+/* Cells */
+td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+    font-size:16px;
+}
+
+/* Alternate rows */
+tr:nth-child(even){
+    background:#f5f7ff;
+}
+
+/* Hover effect */
+tr:hover{
+    background:#e6ecff;
+    transition:0.3s;
+}
+
+/* Year column highlight */
+td:first-child{
+    font-weight:bold;
+    color:#2c3e50;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>STUDENT RESULT ANALYSIS</h1>
+
+<table>
+
+<tr>
+<th>YEAR</th>
+<th>SEMESTER</th>
+<th>PASS PERCENTAGE</th>
+<th>FAIL PERCENTAGE</th>
+</tr>
+
+<tr>
+<td rowspan="2">I Year</td>
+<td>Sem I</td>
+<td>90</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>Sem II</td>
+<td>92</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td rowspan="2">II Year</td>
+<td>Sem I</td>
+<td>99</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>Sem II</td>
+<td>94</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td rowspan="2">III Year</td>
+<td>Sem I</td>
+<td>96</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>Sem II</td>
+<td>96</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td rowspan="2">IV Year</td>
+<td>Sem I</td>
+<td>97</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>Sem II</td>
+<td>95</td>
+<td>5</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

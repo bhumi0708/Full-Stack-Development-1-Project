@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Timetable</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Segoe UI", Arial, sans-serif;
+background-image:url(Ocean.jpeg);
+background-size:cover;
+background-repeat:no-repeat;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* Title */
+h1{
+color:white;
+margin-top:40px;
+letter-spacing:3px;
+text-shadow:2px 2px 6px black;
+}
+
+/* Card container */
+.container{
+width:65%;
+background:rgba(255,255,255,0.9);
+margin-top:40px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+animation:fadeIn 1s ease;
+}
+
+/* Table */
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+/* Header */
+th{
+background:linear-gradient(90deg,#1f4c6b,#3a7bd5);
+color:white;
+padding:15px;
+font-size:18px;
+}
+
+/* Cells */
+td{
+padding:14px;
+text-align:center;
+border-bottom:1px solid #ddd;
+font-size:17px;
+}
+
+/* Alternate rows */
+tr:nth-child(even){
+background:#f4f7ff;
+}
+
+/* Hover */
+tr{
+transition:0.3s;
+}
+
+tr:hover{
+background:#e8eeff;
+transform:scale(1.01);
+}
+
+/* Buttons */
+table tr td a{
+text-decoration:none;
+background:linear-gradient(45deg,#2196F3,#00c6ff);
+color:white;
+padding:8px 16px;
+border-radius:20px;
+font-weight:bold;
+transition:0.3s;
+}
+
+/* Button hover */
+table tr td a:hover{
+transform:translateY(-2px);
+box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Back button */
+.back{
+margin-top:25px;
+text-align:center;
+}
+
+.back a{
+text-decoration:none;
+background:#444;
+color:white;
+padding:10px 20px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.back a:hover{
+background:black;
+}
+
+/* Footer */
+footer{
+margin-top:40px;
+color:white;
+font-size:14px;
+}
+
+/* Animation */
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>MIDTERM TIME TABLES SEMESTER WISE</h1>
+
+<div class="container">
+
+<table>
+
+<tr>
+<th>S.NO</th>
+<th>YEAR / SEMESTER</th>
+<th>AVAILABLE TIMETABLES</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>1<sup>st</sup> YEAR</td>
+<td><a href="1styearmidcme.html">View Timetable</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>2<sup>nd</sup> YEAR</td>
+<td><a href="3rdsemmidcme.html">View Timetable</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>3<sup>rd</sup> YEAR</td>
+<td><a href="4thsemmidcme.html">View Timetable</a></td>
+</tr>
+
+</table>
+
+<div class="back">
+<a href="mainpage.html">⬅ Back to Home</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 Student Portal
+</footer>
+
+</body>
+</html>
